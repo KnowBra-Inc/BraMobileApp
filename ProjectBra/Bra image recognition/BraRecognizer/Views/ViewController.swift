@@ -41,7 +41,7 @@ class ViewController: UIViewController, UINavigationBarDelegate, UINavigationCon
         submitButton.frame = CGRect(x: 0, y: view.frame.size.height - 150, width: view.frame.size.width, height: 50)
 
         // Optional: Customize button appearance
-        submitButton.backgroundColor = UIColor.blue
+        submitButton.backgroundColor = UIColor.green
         submitButton.setTitleColor(UIColor.white, for: .normal)
         submitButton.addTarget(self, action: #selector(subButton), for: .touchUpInside)
 
