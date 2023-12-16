@@ -38,7 +38,7 @@ class ViewController: UIViewController, UINavigationBarDelegate, UINavigationCon
         let submitButton = UIButton(type: .system)
         submitButton.setTitle(vml.buttonText, for: .normal)
         // Set button frame and position it at the bottom of the screen
-        submitButton.frame = CGRect(x: 0, y: view.frame.size.height - 150, width: view.frame.size.width, height: 50)
+        submitButton.frame = CGRect(x: 100, y: view.frame.size.height - 150, width: view.frame.size.width - 150, height: 50)
 
         // Optional: Customize button appearance
         submitButton.backgroundColor = UIColor.green
