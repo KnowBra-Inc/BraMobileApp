@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6350805B2B2D817F00E5F142 /* BraRecogntionViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6350805A2B2D817F00E5F142 /* BraRecogntionViewModelProtocol.swift */; };
+		6350805E2B2D85A200E5F142 /* ExampleCVisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6350805D2B2D85A200E5F142 /* ExampleCVisionView.swift */; };
+		635080602B2D867500E5F142 /* FoodClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6350805F2B2D867500E5F142 /* FoodClassifier.mlmodel */; };
+		639A9FAA2B1BCCDF002753D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A9FA92B1BCCDF002753D5 /* AppDelegate.swift */; };
+		639A9FAC2B1BCCDF002753D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A9FAB2B1BCCDF002753D5 /* SceneDelegate.swift */; };
+		639A9FAE2B1BCCDF002753D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A9FAD2B1BCCDF002753D5 /* ViewController.swift */; };
+		639A9FB12B1BCCDF002753D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639A9FAF2B1BCCDF002753D5 /* Main.storyboard */; };
+		639A9FB32B1BCCE0002753D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639A9FB22B1BCCE0002753D5 /* Assets.xcassets */; };
+		639A9FB62B1BCCE0002753D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639A9FB42B1BCCE0002753D5 /* LaunchScreen.storyboard */; };
+		639A9FC42B1BCE83002753D5 /* BraRecognizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A9FC32B1BCE83002753D5 /* BraRecognizerView.swift */; };
+		639A9FC62B1BCEB0002753D5 /* BraRcognizerViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A9FC52B1BCEB0002753D5 /* BraRcognizerViewModels.swift */; };
+		639A9FCA2B1BCFF5002753D5 /* SuccessScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A9FC92B1BCFF5002753D5 /* SuccessScreen.swift */; };
+		639A9FCC2B1BD010002753D5 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A9FCB2B1BD010002753D5 /* CameraView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6350805A2B2D817F00E5F142 /* BraRecogntionViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraRecogntionViewModelProtocol.swift; sourceTree = "<group>"; };
+		6350805D2B2D85A200E5F142 /* ExampleCVisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCVisionView.swift; sourceTree = "<group>"; };
+		6350805F2B2D867500E5F142 /* FoodClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FoodClassifier.mlmodel; sourceTree = "<group>"; };
+		639A9FA62B1BCCDF002753D5 /* Bra image recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bra image recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639A9FA92B1BCCDF002753D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		639A9FAB2B1BCCDF002753D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		639A9FAD2B1BCCDF002753D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		639A9FB02B1BCCDF002753D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		639A9FB22B1BCCE0002753D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639A9FB52B1BCCE0002753D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		639A9FB72B1BCCE0002753D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639A9FC32B1BCE83002753D5 /* BraRecognizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraRecognizerView.swift; sourceTree = "<group>"; };
+		639A9FC52B1BCEB0002753D5 /* BraRcognizerViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraRcognizerViewModels.swift; sourceTree = "<group>"; };
+		639A9FC92B1BCFF5002753D5 /* SuccessScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessScreen.swift; sourceTree = "<group>"; };
+		639A9FCB2B1BD010002753D5 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639A9FA32B1BCCDF002753D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6350805C2B2D855600E5F142 /* ExampleViews */ = {
+			isa = PBXGroup;
+			children = (
+				639A9FC32B1BCE83002753D5 /* BraRecognizerView.swift */,
+				639A9FC92B1BCFF5002753D5 /* SuccessScreen.swift */,
+				639A9FCB2B1BD010002753D5 /* CameraView.swift */,
+				6350805D2B2D85A200E5F142 /* ExampleCVisionView.swift */,
+			);
+			path = ExampleViews;
+			sourceTree = "<group>";
+		};
+		639A9F9D2B1BCCDF002753D5 = {
+			isa = PBXGroup;
+			children = (
+				639A9FA82B1BCCDF002753D5 /* Bra image recognition */,
+				639A9FA72B1BCCDF002753D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639A9FA72B1BCCDF002753D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639A9FA62B1BCCDF002753D5 /* Bra image recognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639A9FA82B1BCCDF002753D5 /* Bra image recognition */ = {
+			isa = PBXGroup;
+			children = (
+				639A9FC22B1BCD7A002753D5 /* Utils */,
+				639A9FC12B1BCD66002753D5 /* Services */,
+				639A9FBD2B1BCD00002753D5 /* BraRecognizer */,
+				639A9FA92B1BCCDF002753D5 /* AppDelegate.swift */,
+				639A9FAB2B1BCCDF002753D5 /* SceneDelegate.swift */,
+				639A9FAF2B1BCCDF002753D5 /* Main.storyboard */,
+				639A9FB22B1BCCE0002753D5 /* Assets.xcassets */,
+				639A9FB42B1BCCE0002753D5 /* LaunchScreen.storyboard */,
+				639A9FB72B1BCCE0002753D5 /* Info.plist */,
+			);
+			path = "Bra image recognition";
+			sourceTree = "<group>";
+		};
+		639A9FBD2B1BCD00002753D5 /* BraRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				639A9FC02B1BCD53002753D5 /* ViewModels */,
+				639A9FBF2B1BCD4C002753D5 /* Views */,
+				639A9FBE2B1BCD41002753D5 /* Models */,
+			);
+			path = BraRecognizer;
+			sourceTree = "<group>";
+		};
+		639A9FBE2B1BCD41002753D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		639A9FBF2B1BCD4C002753D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6350805C2B2D855600E5F142 /* ExampleViews */,
+				639A9FAD2B1BCCDF002753D5 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		639A9FC02B1BCD53002753D5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				639A9FC52B1BCEB0002753D5 /* BraRcognizerViewModels.swift */,
+				6350805A2B2D817F00E5F142 /* BraRecogntionViewModelProtocol.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		639A9FC12B1BCD66002753D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		639A9FC22B1BCD7A002753D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6350805F2B2D867500E5F142 /* FoodClassifier.mlmodel */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639A9FA52B1BCCDF002753D5 /* Bra image recognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639A9FBA2B1BCCE0002753D5 /* Build configuration list for PBXNativeTarget "Bra image recognition" */;
+			buildPhases = (
+				639A9FA22B1BCCDF002753D5 /* Sources */,
+				639A9FA32B1BCCDF002753D5 /* Frameworks */,
+				639A9FA42B1BCCDF002753D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bra image recognition";
+			productName = "Bra image recognition";
+			productReference = 639A9FA62B1BCCDF002753D5 /* Bra image recognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639A9F9E2B1BCCDF002753D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					639A9FA52B1BCCDF002753D5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 639A9FA12B1BCCDF002753D5 /* Build configuration list for PBXProject "Bra image recognition" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639A9F9D2B1BCCDF002753D5;
+			productRefGroup = 639A9FA72B1BCCDF002753D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639A9FA52B1BCCDF002753D5 /* Bra image recognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639A9FA42B1BCCDF002753D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639A9FB62B1BCCE0002753D5 /* LaunchScreen.storyboard in Resources */,
+				639A9FB32B1BCCE0002753D5 /* Assets.xcassets in Resources */,
+				639A9FB12B1BCCDF002753D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639A9FA22B1BCCDF002753D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639A9FC62B1BCEB0002753D5 /* BraRcognizerViewModels.swift in Sources */,
+				639A9FAE2B1BCCDF002753D5 /* ViewController.swift in Sources */,
+				6350805B2B2D817F00E5F142 /* BraRecogntionViewModelProtocol.swift in Sources */,
+				639A9FAA2B1BCCDF002753D5 /* AppDelegate.swift in Sources */,
+				639A9FCA2B1BCFF5002753D5 /* SuccessScreen.swift in Sources */,
+				6350805E2B2D85A200E5F142 /* ExampleCVisionView.swift in Sources */,
+				639A9FC42B1BCE83002753D5 /* BraRecognizerView.swift in Sources */,
+				635080602B2D867500E5F142 /* FoodClassifier.mlmodel in Sources */,
+				639A9FAC2B1BCCDF002753D5 /* SceneDelegate.swift in Sources */,
+				639A9FCC2B1BD010002753D5 /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		639A9FAF2B1BCCDF002753D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639A9FB02B1BCCDF002753D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		639A9FB42B1BCCE0002753D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639A9FB52B1BCCE0002753D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639A9FB82B1BCCE0002753D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		639A9FB92B1BCCE0002753D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639A9FBB2B1BCCE0002753D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N762D69GAN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bra image recognition/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera for image recongition ";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need photo access for image recogintion model";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scamzam.Bra-image-recognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		639A9FBC2B1BCCE0002753D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N762D69GAN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bra image recognition/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera for image recongition ";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need photo access for image recogintion model";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scamzam.Bra-image-recognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639A9FA12B1BCCDF002753D5 /* Build configuration list for PBXProject "Bra image recognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639A9FB82B1BCCE0002753D5 /* Debug */,
+				639A9FB92B1BCCE0002753D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639A9FBA2B1BCCE0002753D5 /* Build configuration list for PBXNativeTarget "Bra image recognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639A9FBB2B1BCCE0002753D5 /* Debug */,
+				639A9FBC2B1BCCE0002753D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639A9F9E2B1BCCDF002753D5 /* Project object */;
+}
